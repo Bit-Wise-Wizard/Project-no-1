@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2980B9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2980B9;
+            font-size: 18px;
+            padding: 10px 15px;
+            border: 2px solid #2980B9;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: #2980B9;
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-left: 20px;
+        }
+        .blog-post {
+            margin-bottom: 30px;
+        }
+        .blog-title {
+            font-size: 24px;
+            color: #2980B9;
+        }
+        .blog-date {
+            font-size: 14px;
+            color: #777;
+        }
+        .blog-content {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            background: #3498DB;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .read-more:hover {
+            background: #2980B9;
+        }
+        .about-me {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .about-me img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .blog-image {
+            width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Blog</h1>
+</header>
+
+<nav>
+    <a href="index.html">About Me</a>
+    <a href="CV.html">CV</a>
+    <a href="blog.html" class="button">View My Blog</a>
+    <a href="newspaper.html">Newspaper</a>
+    <a href="Homepage.html">Projects</a>
+</nav>
+
+<div class="container">
+    <div class="main-content">
+        <div class="blog-post">
+            <h2 class="blog-title">The Role of Data Science in AI Development</h2>
+            <p class="blog-date">Published on June 27, 2024</p>
+            <img src="ai-role-image.png" alt="AI Role in Data Science" class="blog-image">
+            <p class="blog-content">
+                Data science plays a pivotal role in the development of artificial intelligence. 
+                By leveraging large datasets, data scientists can train machine learning models 
+                to make predictions and automate decision-making processes. This post explores 
+                how data science techniques are essential for building robust AI systems and 
+                the future implications of these advancements.
+            </p>
+            <a href="AI-role.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h2 class="blog-title">Exploring the World of Data Science</h2>
+            <p class="blog-date">Published on June 20, 2024</p>
+            <img src="data-science-image.png" alt="Exploring Data Science" class="blog-image">
+            <p class="blog-content">
+                Data science is a field that combines statistics, mathematics, and programming. 
+                It is becoming essential in many industries. This post will explore the key concepts 
+                and tools that every aspiring data scientist should know.
+            </p>
+            <a href="Data Science.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h2 class="blog-title">Data Science Career Hacks</h2>
+            <p class="blog-date">Published on June 15, 2024</p>
+            <img src="career-hacks-image.png" alt="Data Science Career Hacks" class="blog-image">
+            <p class="blog-content">
+                Navigating a career in data science can be challenging. This post provides essential 
+                tips and hacks to advance your career, from networking strategies to skill development.
+            </p>
+            <a href="career-hacks.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h2 class="blog-title">Hot Takes on AI & ML</h2>
+            <p class="blog-date">Published on June 10, 2024</p>
+            <img src="hot-takes-image.png" alt="Hot Takes on AI & ML" class="blog-image">
+            <p class="blog-content">
+                This post dives into the latest trends and hot takes in the fields of AI and machine learning, 
+                discussing both the excitement and skepticism surrounding these technologies.
+            </p>
+            <a href="hot-takes-ai-ml.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h2 class="blog-title">Tech Stack & Tools Breakdown</h2>
+            <p class="blog-date">Published on June 5, 2024</p>
+            <img src="tech-stack-image.png" alt="Tech Stack & Tools Breakdown" class="blog-image">
+            <p class="blog-content">
+                Understanding the right tools and technologies is crucial for data scientists. This post breaks 
+                down the must-have tech stack for data science professionals and how to choose the right tools.
+            </p>
+            <a href="tech-stacks-tools.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h2 class="blog-title">Data Science Myths vs. Reality</h2>
+            <p class="blog-date">Published on June 1, 2024</p>
+            <img src="myths-vs-reality-image.png" alt="Data Science Myths vs. Reality" class="blog-image">
+            <p class="blog-content">
+                There are many misconceptions about data science. In this post, we debunk common myths and present 
+                the reality of what it takes to succeed in the field.
+            </p>
+            <a href="myths-vs-reality.html" class="read-more">Read More</a>
+        </div>
+
+        <h2>Conclusion</h2>
+        <p class="blog-content">
+            In conclusion, the field of data science is rapidly evolving, and it plays a crucial role in the advancement of AI technologies. 
+            Whether you're exploring new career paths or debunking myths, understanding the fundamentals of data science is essential for 
+            anyone interested in this exciting field. Stay tuned for more insights and discussions!
+        </p>
+    </div>
+
+    <div class="sidebar">
+        <h2>About Me</h2>
+        <div class="about-me">
+            <img src="my pic.png" alt="Profile Picture">
+            <p>Hello! I'm Prasiddha Mainali, a passionate data scientist. I love exploring new trends 
+            in technology and sharing insights through my blog. Welcome to my corner of the internet! 
+            I'm a data scientist who loves turning raw data into crisp insights. Here, you'll find sharp 
+            takes on AI, machine learning, and the stories hidden in numbers—no fluff, just real impact. 
+            Let’s dive into the data-driven world together!</p>
+        </div>
+        
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:prasiddha.mainali2@gmail.com">📧 prasiddha.mainali2@gmail.com</a></p>
+        <p>Phone: <a href="tel:+977-9829098748">📞 +977-9829098748</a></p>
+        <p><a href="https://www.instagram.com/__.prasiddha__/?__pwa=1#" target="_blank">📷__.prasiddha__</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+    </div>
+</div>
+
+</body>
+</html>
